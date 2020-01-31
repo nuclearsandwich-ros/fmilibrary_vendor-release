@@ -1,0 +1,12 @@
+Source: ros-turbulent-fmilibrary-vendor
+Section: misc
+Priority: extra
+Maintainer: Ralph Lange <ralph.lange@de.bosch.com>
+Build-Depends: debhelper (>= 9.0.0), git, ros-turbulent-ament-cmake, ros-turbulent-ros-workspace
+Homepage: https://jmodelica.org/
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-fmilibrary-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ros-workspace
+Description: Wrapper (aka vendor package) around the FMILibrary by Modelon AB (JModelica.org)
